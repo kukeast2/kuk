@@ -1,0 +1,361 @@
+@font-face {
+    	 font-family: NDM;
+    	 src: url("https://googledrive.com/host/0B9Ln6cwK87z1cGR0OURraWxtVW8/나눔고딕B.eot");
+    	 src: local('나눔고딕'), url("https://googledrive.com/host/0B9Ln6cwK87z1cGR0OURraWxtVW8/나눔고딕B.woff") format("woff");
+    	}
+body{
+	margin: 0px;
+	font-family: NDM;
+	background-image: url('bg.png');
+	background-attachment: fixed;
+}
+
+#menu{
+	width: 910px;
+	margin: auto;
+}
+#menu img{
+	position: fixed;
+	bottom: 0px;
+}
+
+#smile img:hover{
+	opacity: 0;
+}
+a{
+	text-decoration: none;
+	color: #076faa;
+	background-color: #ffa500;
+	height: 50px;
+	border-style: solid;
+	border-radius: 8px;
+	font-size: 1.4em;
+}
+.pp{
+	margin-top: 12px;
+}
+.icon{
+	margin: 10px;
+	float: left;
+}
+.icon1{
+	margin: 12px;
+	float: left;
+}
+#box{
+	position: fixed;
+	bottom: 0px;
+	height: 150px;
+	width: 100%;
+	background-color: #076faa;
+}
+
+
+
+
+
+
+@media screen and (max-width:640px){
+	#box2{
+   		position: absolute;
+		top: 0px;
+		width: 100%;
+		height: 110%;
+		background-color: white;
+   }
+   #allll{
+		margin: auto;
+		width: 876px;
+	}
+	h2{
+		font-size: 1.5em;
+		color: #076faa;
+		position: absolute;
+		left: 10px;
+		top: 0px;
+	}
+	body{
+		margin: 0px;
+		font-family: NDM;
+		background-image: url('bg.png');
+		background-attachment: fixed;
+	}
+	p{
+		font-size: 0.8em;
+		line-height: 1.8em;
+	}
+	#menu{
+		width: 910px;
+		margin-left: -130px;
+	}
+	#menu img{
+		position: fixed;
+		bottom: 0px;
+	}
+	#menu1{
+		position: fixed;
+		bottom: 40px;
+		width: 155px;
+		margin-left: 10px;
+	}
+	#menu2{
+		position: fixed;
+		bottom: 40px;
+		width: 105px;
+		margin-left: 180px;
+	}
+	#menu3{
+		position: fixed;
+		bottom: 40px;
+		width: 90px;
+		margin-left: 300px;
+	}
+	#menu4{
+		position: fixed;
+		bottom: 40px;
+		width: 90px;
+		margin-left: 405px;
+	}
+	#menu1 div{
+		color: white;
+	}
+	#menu5{
+		position: fixed;
+		bottom: 40px;
+		width: 90px;
+		margin-left: 510px;
+	}
+	#menu1010{
+		margin: 0px auto;
+		width: 910px;
+		font-size: 0.8em;
+	}
+	#logo{
+		width: 450px;
+		position: absolute;
+		left: 85px;
+	}
+	#logo img{
+		position: absolute;
+		top: 80px;
+	}
+	#smile{
+		position: absolute;
+		left: 90px;
+		width: 460px;
+	}
+	#smile img{
+		position: absolute;
+		top: 252px;
+		opacity: 1;
+		transition: opacity 0.3s;
+	}
+	#main_img{
+		position: absolute;
+		left: -120px;
+		display: block;
+	}
+	
+}
+
+@media screen and (min-width: 641px) and (max-width:876px){
+   #box2{
+   		position: absolute;
+		top: 0px;
+		width: 100%;
+		height: 110%;
+		background-color: white;
+   }
+   #allll{
+		margin: auto;
+		width: 876px;
+	}
+	h2{
+		font-size: 1.5em;
+		color: #076faa;
+		position: absolute;
+		left: 10px;
+		top: 0px;
+	}
+	body{
+		margin: 0px;
+		font-family: NDM;
+		background-image: url('bg.png');
+		background-attachment: fixed;
+	}
+	p{
+		font-size: 0.8em;
+		line-height: 1.8em;
+	}
+	#menu{
+		width: 910px;
+		margin-left: -60px;
+	}
+	#menu img{
+		position: fixed;
+		bottom: 0px;
+	}
+	#menu1{
+		position: fixed;
+		bottom: 40px;
+		width: 185px;
+		margin-left: 50px;
+	}
+	#menu2{
+		position: fixed;
+		bottom: 40px;
+		width: 125px;
+		margin-left: 280px;
+	}
+	#menu3{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 430px;
+	}
+	#menu4{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 555px;
+	}
+	#menu1 div{
+		color: white;
+	}
+	#menu5{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 680px;
+	}
+	#menu1010{
+		margin: 0px auto;
+		width: 910px;
+	}
+	#logo{
+		width: 450px;
+		position: absolute;
+		right: 200px;
+	}
+	#logo img{
+		position: absolute;
+		top: 80px;
+	}
+	#smile{
+		position: absolute;
+		right: 205px;
+		width: 460px;
+	}
+	#smile img{
+		position: absolute;
+		top: 252px;
+		opacity: 1;
+		transition: opacity 0.3s;
+	}
+	#main_img{
+		position: absolute;
+		right: 0px;
+		top: 0px;
+	}
+	
+}
+
+@media screen and (min-width: 877px){
+	 #box2{
+		position: absolute;
+		top: 50px;
+		width: 876px;
+		height: 105%;
+		background-color: white;
+		border: solid #076faa 1px;
+	}
+	#allll{
+		margin: auto;
+		width: 876px;
+	}
+	h2{
+		font-size: 1.5em;
+		color: #076faa;
+		position: absolute;
+		left: 50px;
+		top: 20px;
+	}
+	body{
+		margin: 0px;
+		font-family: NDM;
+		background-image: url('bg.png');
+		background-attachment: fixed;
+	}
+	p{
+		font-size: 0.8em;
+		line-height: 1.8em;
+	}
+	#menu{
+		width: 910px;
+		margin: auto;
+	}
+	#menu img{
+		position: fixed;
+		bottom: 0px;
+	}
+	#menu1{
+		position: fixed;
+		bottom: 40px;
+		width: 185px;
+		margin-left: 70px;
+	}
+	#menu2{
+		position: fixed;
+		bottom: 40px;
+		width: 125px;
+		margin-left: 320px;
+	}
+	#menu3{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 470px;
+	}
+	#menu4{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 595px;
+	}
+	#menu1 div{
+		color: white;
+	}
+	#menu5{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 720px;
+	}
+	#menu1010{
+		margin: 0px auto;
+		width: 910px;
+	}
+	#logo{
+		width: 450px;
+		margin: auto;
+	}
+	#logo img{
+		position: absolute;
+		top: 80px;
+	}
+	#smile{
+		margin: 0px auto;
+		width: 460px;
+	}
+	#smile img{
+		position: absolute;
+		top: 252px;
+		opacity: 1;
+		transition: opacity 0.3s;
+	}
+	#main_img{
+		margin: auto;
+		display: block;
+	}
+	
+}
