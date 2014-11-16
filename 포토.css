@@ -1,0 +1,358 @@
+@font-face {
+    	 font-family: NDM;
+    	 src: url("https://googledrive.com/host/0B9Ln6cwK87z1cGR0OURraWxtVW8/나눔고딕B.eot");
+    	 src: local('나눔고딕'), url("https://googledrive.com/host/0B9Ln6cwK87z1cGR0OURraWxtVW8/나눔고딕B.woff") format("woff");
+    	}
+a{
+	text-decoration: none;
+	color: #076faa;
+	background-color: #ffa500;
+	height: 50px;
+	border-style: solid;
+	border-radius: 8px;
+	font-size: 1.4em;
+}
+.pp{
+	margin-top: 12px;
+}
+.icon{
+	margin: 10px;
+	float: left;
+}
+.icon1{
+	margin: 12px;
+	float: left;
+}
+#box{
+	position: fixed;
+	bottom: 0px;
+	height: 150px;
+	width: 100%;
+	background-color: #076faa;
+}
+
+
+
+@media screen and (max-width:640px){
+	#box2{
+   		position: absolute;
+		top: 0px;
+		width: 100%;
+		height: 120%;
+		background-color: white;
+   }
+   #allll{
+		margin: auto;
+		width: 876px;
+	}
+	h2{
+		font-size: 1.5em;
+		color: #076faa;
+		position: absolute;
+		left: 10px;
+		top: 0px;
+	}
+	body{
+		margin: 0px;
+		font-family: NDM;
+		background-image: url('bg.png');
+		background-attachment: fixed;
+	}
+	p{
+		font-size: 0.8em;
+		line-height: 1.8em;
+	}
+	#menu{
+		width: 910px;
+		margin-left: -130px;
+	}
+	#menu img{
+		position: fixed;
+		bottom: 0px;
+	}
+	#menu1{
+		position: fixed;
+		bottom: 40px;
+		width: 155px;
+		margin-left: 10px;
+	}
+	#menu2{
+		position: fixed;
+		bottom: 40px;
+		width: 105px;
+		margin-left: 180px;
+	}
+	#menu3{
+		position: fixed;
+		bottom: 40px;
+		width: 90px;
+		margin-left: 300px;
+	}
+	#menu4{
+		position: fixed;
+		bottom: 40px;
+		width: 90px;
+		margin-left: 405px;
+	}
+	#menu4 div{
+		color: white;
+	}
+	#menu5{
+		position: fixed;
+		bottom: 40px;
+		width: 90px;
+		margin-left: 510px;
+	}
+	#menu1010{
+		margin: 0px auto;
+		width: 910px;
+		font-size: 0.8em;
+	}
+
+	#img{
+		width: 400px;
+		height: 400px;
+		overflow: hidden;
+		position: absolute;
+		left: 90px;
+		top: 80px;
+	}
+	#img img{
+		width: 800px;
+		margin-left: -180px;
+	}
+	#img1{
+		width: 400px;
+		position: absolute;
+		left: 92px;
+		top: 490px;
+	}
+	#img1 div{
+		width: 195px;
+		height: 124px;
+		overflow: hidden;
+		margin-bottom: 4px;
+		margin-right: 5px;
+		float: left;
+	}
+	#img1 div img{
+		width: 120%;
+		height: 100%;
+	}
+}
+
+@media screen and (min-width: 641px) and (max-width:876px){
+   #box2{
+   		position: absolute;
+		top: 0px;
+		width: 100%;
+		height: 110%;
+		background-color: white;
+   }
+   #allll{
+		margin: auto;
+		width: 876px;
+	}
+	h2{
+		font-size: 1.5em;
+		color: #076faa;
+		position: absolute;
+		left: 10px;
+		top: 0px;
+	}
+	body{
+		margin: 0px;
+		font-family: NDM;
+		background-image: url('bg.png');
+		background-attachment: fixed;
+	}
+	p{
+		font-size: 0.8em;
+		line-height: 1.8em;
+	}
+	#menu{
+		width: 910px;
+		margin-left: -60px;
+	}
+	#menu img{
+		position: fixed;
+		bottom: 0px;
+	}
+	#menu1{
+		position: fixed;
+		bottom: 40px;
+		width: 185px;
+		margin-left: 50px;
+	}
+	#menu2{
+		position: fixed;
+		bottom: 40px;
+		width: 125px;
+		margin-left: 280px;
+	}
+	#menu3{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 430px;
+	}
+	#menu4{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 555px;
+	}
+	#menu4 div{
+		color: white;
+	}
+	#menu5{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 680px;
+	}
+	#menu1010{
+		margin: 0px auto;
+		width: 910px;
+	}
+	#img{
+		width: 380px;
+		height: 380px;
+		overflow: hidden;
+		position: absolute;
+		left: 30px;
+		top: 180px;
+	}
+	#img img{
+		width: 800px;
+		margin-left: -180px;
+	}
+	#img1{
+		width: 380px;
+		position: absolute;
+		left: 430px;
+		top: 180px;
+	}
+	#img1 div{
+		width: 175px;
+		height: 124px;
+		overflow: hidden;
+		margin-bottom: 4px;
+		margin-right: 4px;
+		float: left;
+	}
+	#img1 div img{
+		width: 120%;
+		height: 100%;
+	}
+
+}
+
+@media screen and (min-width: 877px){
+	 #box2{
+		position: absolute;
+		top: 50px;
+		width: 876px;
+		height: 105%;
+		background-color: white;
+		border: solid #076faa 1px;
+	}
+	#allll{
+		margin: auto;
+		width: 876px;
+	}
+	h2{
+		font-size: 1.5em;
+		color: #076faa;
+		position: absolute;
+		left: 50px;
+		top: 20px;
+	}
+	body{
+		margin: 0px;
+		font-family: NDM;
+		background-image: url('bg.png');
+		background-attachment: fixed;
+	}
+	p{
+		font-size: 0.8em;
+		line-height: 1.8em;
+	}
+	#menu{
+		width: 910px;
+		margin: auto;
+	}
+	#menu img{
+		position: fixed;
+		bottom: 0px;
+	}
+	#menu1{
+		position: fixed;
+		bottom: 40px;
+		width: 185px;
+		margin-left: 70px;
+	}
+	#menu2{
+		position: fixed;
+		bottom: 40px;
+		width: 125px;
+		margin-left: 320px;
+	}
+	#menu3{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 470px;
+	}
+	#menu4{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 595px;
+	}
+	#menu4 div{
+		color: white;
+	}
+	#menu5{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 720px;
+	}
+	#menu1010{
+		margin: 0px auto;
+		width: 910px;
+	}
+	#img{
+		width: 400px;
+		height: 400px;
+		overflow: hidden;
+		position: absolute;
+		left: 30px;
+		top: 180px;
+	}
+	#img img{
+		width: 800px;
+		position: absolute;
+		left: -200px;
+	}
+	#img1{
+		width: 400px;
+		height: 400px;
+		position: absolute;
+		right: 30px;
+		top: 180px;
+	}
+	#img1 div{
+		width: 195px;
+		height: 130.725px;
+		overflow: hidden;
+		margin-bottom: 4px;
+		margin-right: 4px;
+		float: left;
+	}
+	#img1 div img{
+		width: 120%;
+		height: 100%;
+	}
+}
