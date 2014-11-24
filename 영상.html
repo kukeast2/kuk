@@ -3,6 +3,23 @@
 	<head>
 		<title>나홀로 집에</title>
 		<link rel="stylesheet" type="text/css" href="영상.css">
+		<script type="text/javascript">
+				function on (event, object) {
+				var x = event.clientX;
+			    var y = event.clientY;
+				var P1 = document.getElementById('mouse1');
+				P1.style.left = (x+10) + 'px';
+				P1.style.top = (y+10) + 'px';
+			}
+			function clearCoor() {
+				var x = event.clientX;
+			    var y = event.clientY;
+				var P1 = document.getElementById('mouse1')
+				P1.style.left = (x) + 'px';
+				P1.style.top = (y) + 'px';
+			}
+			
+		</script>
 	</head>
 	<body>
 			<div id="box"></div>
@@ -22,6 +39,9 @@
 				<a href="출연.html" id="menu3"><img src="낙옆.png" class="icon1"><div class="pp">출연</div></a>
 				<a href="포토.html" id="menu4"><img src="낙옆.png" class="icon1"><div class="pp">포토</div></a>
 				<a href="영상.html" id="menu5"><img src="낙옆.png" class="icon1"><div class="pp">영상</div></a>
+			</div>
+			<div onmousemove="on(event)" onmouseout="clearCoor()" id="ab">
+			<img src="작은 집.png" id="mouse1">
 			</div>
 	</body>
 </html>
