@@ -393,3 +393,156 @@ a{
 	}
 		
 }
+@media print{
+	#allll{
+		margin: auto;
+		width: 876px;
+	}
+	h2{
+		font-size: 1.5em;
+		color: #076faa;
+		position: absolute;
+		left: 50px;
+		top: 20px;
+	}
+	body{
+		margin: 0px;
+		font-family: NDM;
+
+	}
+	p{
+		font-size: 0.8em;
+		line-height: 1.8em;
+	}
+	#menu{
+		width: 910px;
+		margin: auto;
+	}
+	#menu img{
+		position: fixed;
+		bottom: 0px;
+	}
+	#menu1{
+		position: fixed;
+		bottom: 40px;
+		width: 185px;
+		margin-left: 70px;
+	}
+	#menu2{
+		position: fixed;
+		bottom: 40px;
+		width: 125px;
+		margin-left: 320px;
+	}
+	#menu3{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 470px;
+	}
+	#menu4{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 595px;
+	}
+	#menu1 div{
+		color: white;
+	}
+	#menu5{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 720px;
+	}
+	#menu1010{
+		margin: 0px auto;
+		width: 910px;
+	}
+	#logo{
+		width: 450px;
+		margin: auto;
+	}
+	#logo img{
+		position: absolute;
+		top: 80px;
+	}
+	#smile{
+		display: none;
+		margin: 0px auto;
+		width: 460px;
+	}
+	#smile img{
+		position: absolute;
+		top: 252px;
+		opacity: 0;
+		transition: opacity 0.3s;
+	}
+	#main_img{
+		margin: auto;
+		display: block;
+	}
+	#dok{
+		position: absolute;
+		top: 0px;
+		left: -27px;
+	}
+	#dodododo{
+		position: absolute;
+		margin-left: 55px;
+		top: 102px;
+		width: 232px;
+		height: 707px;
+		overflow: hidden;
+	}
+	#dok1{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	#dodododo1{
+		position: absolute;
+		margin-left: 596px;
+		top: 49px;
+		width: 232px;
+		height: 707px;
+		overflow: hidden;
+	}
+	a{
+		text-decoration: none;
+		color: #076faa;
+		background-color: #ffa500;
+		height: 50px;
+		border-style: solid;
+		border-radius: 8px;
+		font-size: 1.4em;
+	}
+	.pp{
+		margin-top: 12px;
+	}
+	.icon{
+		margin: 10px;
+		float: left;
+	}
+	.icon1{
+		margin: 12px;
+		float: left;
+	}
+	#box{
+		display: none;
+		position: fixed;
+		bottom: 0px;
+		height: 150px;
+		width: 1000px;
+		background-color: #076faa;
+	}
+
+	#box2{
+		margin: auto;
+		width: 876px;
+		height: 105%;
+		background-color: white;
+		border: solid #076faa 1px;
+	}
+		
+}

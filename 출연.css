@@ -435,3 +435,139 @@ a{
 		top: 95px;
 	}
 }
+
+@media print{
+	 #box2{
+		position: absolute;
+		top: 50px;
+		width: 876px;
+		height: 105%;
+		background-color: white;
+		border: solid #076faa 1px;
+	}
+	#allll{
+		margin: auto;
+		width: 876px;
+	}
+	h2{
+		font-size: 1.5em;
+		color: #076faa;
+		position: absolute;
+		left: 50px;
+		top: 20px;
+	}
+	body{
+		margin: 0px;
+		font-family: NDM;
+	}
+	p{
+		font-size: 0.8em;
+		line-height: 1.8em;
+	}
+	#menu{
+		width: 910px;
+		margin: auto;
+	}
+	#menu img{
+		position: fixed;
+		bottom: 0px;
+	}
+	#menu1{
+		position: fixed;
+		bottom: 40px;
+		width: 185px;
+		margin-left: 70px;
+	}
+	#menu2{
+		position: fixed;
+		bottom: 40px;
+		width: 125px;
+		margin-left: 320px;
+	}
+	#menu3{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 470px;
+	}
+	#menu4{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 595px;
+	}
+	#menu3 div{
+		color: white;
+	}
+	#menu5{
+		position: fixed;
+		bottom: 40px;
+		width: 100px;
+		margin-left: 720px;
+	}
+	#menu1010{
+		margin: 0px auto;
+		width: 910px;
+	}
+	#mac{position: fixed;
+		bottom: 150px;
+		width: 400px;
+	}
+	#dododo{position: absolute;
+		top: 10px;
+		right: 50px;
+		width: 350px;
+	}
+	#chul{position: absolute;
+		top: 250px;
+		right: 10px;
+		width: 450px;
+	}
+	#chul1{position: absolute;
+		top:100px;
+		right: 250px;
+		width: 500px;
+	}
+	#p2{
+		text-align: center;
+		font-size: 1.5em;
+		position: absolute;
+		top:290px;
+		right: 100px;
+	}
+	#p3{
+		text-align: center;
+		font-size: 1.5em;
+		position: absolute;
+		top:420px;
+		right: 140px;
+	}
+
+	#p4{
+		text-align: center;
+		font-size: 1.5em;
+		position: absolute;
+		top:540px;
+		right: 100px;
+	}
+	#ppp1{
+		position: absolute;
+		right: 470px;
+		top: 95px;
+	}
+	#box{
+		display: none;
+	}
+	#mouse1{
+		position: absolute;
+		top: 0px;
+	}
+	#ab{
+		display: none;
+		width: 100%;
+		height: 80%;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+	}
+}
